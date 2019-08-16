@@ -1,6 +1,0 @@
-ffmpeg
-numpy
-scipy
-matplotlib
-astropy
-galpy

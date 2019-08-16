@@ -1,0 +1,9 @@
+name: galcrash
+dependencies:
+  - python
+  - ffmpeg
+  - numpy
+  - scipy
+  - matplotlib
+  - astropy
+  - galpy
