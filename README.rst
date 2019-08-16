@@ -4,7 +4,9 @@ GalCrash
 AUTHOR
 -------
 David Hendel 
+
 Postdoc, University of Toronto
+
 hendel at astro dot utoronto dot ca
 
 If you find this useful please reach out with thoughts or feedback!
@@ -25,8 +27,13 @@ PYTHON VERSIONS AND DEPENDENCIES
 Python 2.7
 
 Requires:
+
 - numpy
+
 - scipy
+
 - matplotlib
+
 - astropy
+
 - galpy
