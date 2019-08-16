@@ -1,19 +1,13 @@
 GalCrash
 ======
 
-AUTHOR
+
+USAGE
 -------
-David Hendel 
 
-Postdoc, University of Toronto
+Run this in a browser with Binder: .. image:: https://mybinder.org/badge_logo.svg
+ :target: https://mybinder.org/v2/gh/davidhendel/galcrash/master
 
-hendel at astro dot utoronto dot ca
-
-If you find this useful please reach out with thoughts or feedback!
-
-
-Usage
--------
 A Juypter notebook designed to simulate and display simple galaxy mergers and other interesting concepts in galactic dynamics.
 
 The primary goal is to abstract as much as possible so that no progamming experience is required, making it suitable for Astro 101 demos or outreach activities. 
@@ -37,3 +31,15 @@ Requires:
 - astropy
 
 - galpy
+
+
+AUTHOR
+-------
+David Hendel 
+
+Postdoc, University of Toronto
+
+hendel at astro dot utoronto dot ca
+
+If you find this useful please reach out with thoughts or feedback!
+
