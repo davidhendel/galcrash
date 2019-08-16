@@ -5,7 +5,8 @@ GalCrash
 USAGE
 -------
 
-Run this in a browser with Binder: .. image:: https://mybinder.org/badge_logo.svg
+Run this in a browser with Binder: 
+.. image:: https://mybinder.org/badge_logo.svg
  :target: https://mybinder.org/v2/gh/davidhendel/galcrash/master
 
 A Juypter notebook designed to simulate and display simple galaxy mergers and other interesting concepts in galactic dynamics.
