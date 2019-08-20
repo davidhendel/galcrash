@@ -36,13 +36,13 @@ from matplotlib.patches import Ellipse
 
 ########################################################################
 #Setup simulation from widget w
-def simsetup(w):
-    gal1 = Galaxy(mfac=w['m1'],pos=[w['x1'],w['y1'],0],vel=[w['vx1'],w['vy1'],0],
+def simsetup(w,n=10000):
+    gal1 = Galaxy(mfac=w['m1'],pos=np.array([w['x1'],w['y1'],0])/3.5,vel=np.array([w['vx1'],w['vy1'],0])/250.,
         rdisk=2.5,phi=w['phi1'],theta=w['theta1'],friction=False,dt=0.1,G=1.)
-    gal2 = Galaxy(mfac=w['m2'],pos=[w['x2'],w['y2'],0],vel=[w['vx2'],w['vy2'],0],
+    gal2 = Galaxy(mfac=w['m2'],pos=np.array([w['x2'],w['y2'],0])/3.5,vel=np.array([w['vx2'],w['vy2'],0])/250.,
         rdisk=2.5,phi=w['phi2'],theta=w['theta2'],friction=False,dt=0.1,G=1.)
-    s1 = Stars(gal1, n=1000)
-    s2 = Stars(gal2, n=1000)
+    s1 = Stars(gal1, n=10000)
+    s2 = Stars(gal2, n=10000)
 
     return gal1,gal2,s1,s2
 
